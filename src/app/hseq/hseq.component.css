@@ -1,0 +1,88 @@
+#hseq {
+  padding-top: 0vw;
+}
+#hseq h1 {
+  color: #4f9dbc; }
+#hseq p {
+  color: #444; 
+  font-size: 1.3vw;  
+}
+    #hseq p span {
+      font-weight: 900; 
+    }
+  #hseq h2 {
+    color: #777;
+
+    font-size: 1.5vw;
+  
+  }
+  #hseq .hseq {
+    display: flex;
+
+    
+    }
+    #hseq .hseq .left {
+      display: flex;
+      flex-direction: column;
+      width: 62vw;
+      padding: 4vw;   
+  }
+      #hseq .hseq .left .rad1 {
+        display: flex;
+        flex-direction: column; }
+        #hseq .hseq .left .rad1 h1 {
+  
+             font-size: 1.5vw;
+          
+          }
+        #hseq .hseq .left .rad1 ul {
+          list-style-image: url("../../assets/img/seil.svg"); 
+             font-size: 1.3vw;
+          }
+          #hseq .hseq .left .rad1 ul li {
+           
+                padding: 0.5vw;   
+        
+            }
+   
+
+
+
+
+   
+
+@media all and (max-width: 768px) {
+
+
+  #hseq p {
+  font-size: 2vw;
+    }
+    #hseq .hseq .left .rad1 ul {
+
+    font-size: 2vw;
+}
+
+  #hseq h2 {
+    color: #777;
+
+    font-size: 2vw;
+  
+  }
+
+#hseq .hseq .left {
+
+    width: 96vw;
+    padding: 3vw 3vw; 
+     
+}
+app-referenceprojects{
+     display:none;
+}
+
+#hseq .hseq .left .rad1 h1 {
+          font-size: 2.5vw; 
+}
+
+
+
+}

@@ -1,0 +1,34 @@
+:host{
+      width: 30vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    padding-top: 10vw; 
+}
+      
+.right .projects {
+    display: flex; 
+    cursor: pointer;
+}
+       
+img {
+   width: 13vw;
+    padding: 1vw;
+   height: 10vw;
+}
+
+.right .projects div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+p {
+    color: #444; 
+     font-size: 1vw; 
+}
+
+  

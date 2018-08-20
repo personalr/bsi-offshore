@@ -1,0 +1,78 @@
+#project {
+  padding: 0 2vw;
+  
+width: 96vw;
+}
+
+h1 {
+    color: #4f9dbc; 
+    font-size: 2vw;
+}
+
+.rad1{
+    display:flex;
+    width: 96vw;
+}
+
+.rad2{
+    display:flex;
+    width: 96vw;
+  
+}
+
+.detaljer{
+ width: 16vw;
+}
+
+
+ h2 {
+    color: #777;
+    font-size: 1.6vw; 
+}
+ p {
+    color: #444; 
+    font-size: 1.3vw; 
+}
+strong{
+     color: #777;
+}
+li{
+    color: #777;
+    font-size: 1.3vw; 
+}
+
+app-bildefremviser
+{
+    width:80vw;
+    
+}
+
+
+@media all and (max-width: 768px) {
+
+
+h1 {
+    color: #4f9dbc; 
+    font-size: 3vw;
+}
+
+ h2 {
+    color: #777;
+    font-size: 2.6vw; 
+}
+ p {
+    color: #444; 
+    font-size: 2vw; 
+}
+strong{
+     color: #777;
+}
+li{
+    color: #777;
+    font-size: 2vw; 
+}
+a{
+      font-size: 3vw; 
+}
+
+}

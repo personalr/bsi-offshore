@@ -1,0 +1,44 @@
+
+ <div class="nav-header">
+    <a href="/" > <img src="assets/img/BSI-OFFSHORE-LOGO-VEKTOR.svg"></a>
+  </div>
+
+  <div class="nav-item">
+    <a  routerLink="/"  routerLinkActive="aktiv-link"  [routerLinkActiveOptions]="{exact: true}">HOME</a>
+    <a  routerLink="/products"  routerLinkActive="aktiv-link">PRODUCTS</a> 
+    <a  routerLink="/services"  routerLinkActive="aktiv-link">SERVICES</a>
+    <a  routerLink="/projects"  routerLinkActive="aktiv-link">PROJECTS</a> 
+    <a  routerLink="/hseq"  routerLinkActive="aktiv-link">HSEQ</a> 
+    <a  routerLink="/about"  routerLinkActive="aktiv-link">ABOUT US</a> 
+    <a  routerLink="/contact"  routerLinkActive="aktiv-link">CONTACT</a>     
+  </div>
+
+
+
+
+
+
+  <div class="nav-item-small">
+    <div class="burger" (click)="smallNav = !smallNav" [innerHtml]="getBurgerEllerKryss()" >
+
+
+
+
+
+    </div>
+    <div class="dropdown"  (click)="smallNav = !smallNav" [ngClass]="{visible: smallNav}">
+      <a  routerLink="/"  routerLinkActive="aktiv-link"  [routerLinkActiveOptions]="{exact: true}">HOME</a>
+      <a  routerLink="/products"  routerLinkActive="aktiv-link">PRODUCTS</a> 
+      <a  routerLink="/services"  routerLinkActive="aktiv-link">SERVICES</a>
+      <a  routerLink="/projects"  routerLinkActive="aktiv-link">PROJECTS</a> 
+      <a  routerLink="/hseq"  routerLinkActive="aktiv-link">HSEQ</a> 
+      <a  routerLink="/about"  routerLinkActive="aktiv-link">ABOUT US</a> 
+      <a  routerLink="/contact"  routerLinkActive="aktiv-link">CONTACT</a>  
+    </div>
+
+   <img src="assets/img/BSI-OFFSHORE-LOGO-VEKTOR-mob-header.svg">
+
+ 
+  </div>
+
+        

@@ -1,0 +1,31 @@
+
+                <div class="right">
+                    <p>REFERENCE PROJECTS</p>
+                    <div class="projects" [routerLink]="['/project',p1.id]">
+                        <img  src="{{p1.hovedbilde}}" />
+                        <div>
+                            <br><br><br>
+                            <p>{{p1.name}}<br>
+                            <span></span>
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="projects" [routerLink]="['/project',p2.id]">
+                        <img  src="{{p2.hovedbilde}}" />
+                         <div>
+                         <br><br><br>
+                            
+                        <p>{{p2.name}}<br>
+                        <span> </span></p>
+                        </div>
+                    </div>
+                    <div class="projects" [routerLink]="['/project',p5  .id]">
+                        <img  src="{{p5.hovedbilde}}" />
+                        <div>
+                        <br><br><br>
+                            
+                        <p>{{p5.name}}<br>
+                        <span> </span></p>
+                        </div>
+                    </div>
+                </div>

@@ -1,0 +1,30 @@
+.pluss{
+    z-index: 100;    
+    background-color: white;
+    opacity: 0.5;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.minus{
+    z-index: 100;
+        background-color: white;
+    opacity: 0.5;
+    padding: 1em;
+     cursor: pointer;
+}
+
+.main{
+    margin:3em;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    margin:-2em;
+    width:100%;
+    height:auto;
+}
+
+
+

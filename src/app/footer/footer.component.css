@@ -1,0 +1,43 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #444;
+  padding: 3vw;
+  font-size: 1vw; 
+}
+  
+#footer .rad1 {
+    display: flex; 
+}
+
+#footer .rad1 div {
+      padding: 2vw;
+      border: solid #999;
+      color: white;
+      width: 20%; 
+}
+
+#footer .rad1 div img {
+    width: 100%; 
+    cursor: pointer;
+}
+#footer .rad2 {
+    display: flex;
+    width: 100%; 
+}
+
+#footer .rad2 img {
+    width: 100%;
+    padding: 2em;
+    height: 2vw; 
+}
+
+ 
+/* Medium Devices, Desktops */
+@media all and (max-width: 992px) {
+
+    #footer {
+        font-size: 2vw; 
+        padding: 0.2vw;
+    }
+}

@@ -1,0 +1,185 @@
+#home {
+  transition: 0.5s;
+  display: block; 
+}
+
+#home #seksjon1 {
+    display: flex;
+	background-image: url("../../assets/img/head_img.png");
+
+   /* background-image: url("../../assets/img/main.jpg");*/
+    background-repeat: no-repeat;
+	background-size: 100vw;
+    height: 34.3vw;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+  #home #seksjon2 {
+    margin-top: 4vw;
+    display: flex; 
+    }
+  #home #seksjon2 div {
+      width: 33vw;
+      background-repeat: no-repeat;
+      background-position: center;
+      flex-grow: 1;
+      padding: 3vw;
+      padding-top: 5vw; }
+  #home #seksjon2 div h1 {
+        color: #4f9dbc; 
+          font-size: 2vw;
+  }
+  #home #seksjon2 div p {
+      color: #444; 
+      font-size: 1.3vw;
+  }
+  #home #seksjon2 .planning {
+      background-position: 10vw 0.5vw;
+      background-image: url("../../assets/img/pencil-ruler-icon.svg");
+      text-align: left;
+      background-size: 10vw auto; 
+    }
+
+    #home #seksjon2 .turnkey {
+      background-position: 10vw 0.3vw;
+
+      background-image: url("../../assets/img/ikon-nokkel.svg");
+      text-align: left;
+      background-size: 8.5vw auto; 
+    }
+    #home #seksjon2 .hse {
+      background-position: 10vw 1vw;
+      background-image: url("../../assets/img/HSE.svg");
+      text-align: left;
+      background-size: 13vw auto; 
+    }
+
+
+
+  #home #seksjon3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 5vw; }
+
+    
+    #home #seksjon3 h1 {
+      color: #4f9dbc;
+      width: 100%; 
+      font-size: 2vw;
+    }
+    
+    
+    
+    
+    #home #seksjon3 .prosjekter {
+      width: 100vw;
+      display: flex;
+      -webkit-justify-content: space-around;
+      /* Safari */
+      justify-content: space-around; 
+    }
+      #home #seksjon3 .prosjekter div {
+        width: 20%; 
+        cursor: pointer;
+         text-transform: uppercase;
+        }
+        #home #seksjon3 .prosjekter div img {
+          width: 100%; 
+        }
+        #home #seksjon3 .prosjekter div h2 {
+          color: #777;
+          font-size: 1.3vw; }
+
+.link{
+  cursor: pointer;
+}
+
+
+
+    /* -------------------------------------------- */
+
+/* Large Devices, Wide Screens min ipad liggende  */
+@media all and (max-width: 1200px) {
+ 
+}
+
+
+
+
+
+
+ 
+/* Medium Devices, Desktops */
+@media all and (max-width: 992px) {
+   
+
+  #home #seksjon2 div p {
+      color: #444; 
+      font-size: 2vw;
+  }
+  #home #seksjon2 div h1 {
+
+          font-size: 2.5vw;
+  }
+
+
+
+
+
+
+
+    
+    #home #seksjon3 h1 {
+      width: 100%; 
+      font-size: 3vw;
+    }
+    
+    
+
+    #home #seksjon3 .prosjekter div h2 {
+ 
+          font-size: 2.3vw; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* Small Devices, Tablets  min iphone liggende   min ipad stående*/
+@media all and (max-width: 768px) {
+
+
+/* Understående flyttes ned ett hakk */
+ 
+
+}
+
+
+/* Extra Small Devices, Phones min iphone stående */
+@media all and (max-width: 480px) {
+  
+
+}
+
+
+/* Custom, iPhone Retina */
+@media all and (max-width: 320px) {
+
+
+}
+
+
+

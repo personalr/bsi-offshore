@@ -1,0 +1,47 @@
+<section id="project" class="fluid clearfix">
+  <h1>{{prosjekt.name}}</h1>     
+    <div class="rad1">
+
+
+      <app-bildefremviser [prosjekt]="prosjekt"></app-bildefremviser>
+
+  
+      <div class="detaljer">
+          <h2><span>Project details</span></h2>
+              <p><strong>Client / end client:<br></strong>{{prosjekt.client}}</p>
+
+              <p><strong>Period:<br></strong>{{prosjekt.period}}</p>
+              <p><strong>Vessel:<br></strong>{{prosjekt.vessel}}</p>
+              <p>
+                  <strong>Location:<br></strong>{{prosjekt.location}}
+              </p>
+              <p>
+                <a [routerLink]="['/projects']">Back to project list</a>
+              </p>  
+        </div>
+    </div>
+
+    <div class="rad2">
+        <h2>Scope of work:</h2>
+        <ul>
+        <li   *ngFor="let scope of prosjekt.scopes"  >{{scope}}</li>
+       
+        </ul>
+    </div>
+
+     
+</section>
+
+<!--
+
+                        
+                            <li class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;"><a href="assets/img/Projects/Songa_Delta/songa_delta.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class=""><a href="assets/img//Projects/Songa_Delta/songa_delta_001.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_001.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item;" class="flex-active-slide"><a href="./bilder/Projects/Songa_Delta/songa_delta_002.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_002.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative;"><a href="assets/img//Projects/Songa_Delta/songa_delta_012.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_012.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative;"><a href="assets/img//Projects/Songa_Delta/songa_delta_015.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_015.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative;"><a href="assets/img//Projects/Songa_Delta/songa_delta_046.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_046.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative;"><a href="assets/img//Projects/Songa_Delta/songa_delta_047.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_047.jpg" alt="Songa Delta"></a></li>
+                            <li style="width: 100%; float: left; margin-right: -100%; position: relative;"><a href="assets/img//Projects/Songa_Delta/songa_delta_050.jpg" rel="prettyPhoto[postgallery]" data-rel="prettyPhoto[postgallery]"><img src="assets/img//Projects/Songa_Delta/songa_delta_050.jpg" alt="Songa Delta"></a></li></ul></div><ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="flex-active">3</a></li><li><a>4</a></li><li><a>5</a></li><li><a>6</a></li><li><a>7</a></li><li><a>8</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#">Previous</a></li><li><a class="flex-next" href="#">Next</a></li></ul></div></div></div>
+       
+-->

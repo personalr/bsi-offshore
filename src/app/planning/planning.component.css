@@ -1,0 +1,61 @@
+h1 {
+  color: #4f9dbc; 
+    font-size: 2vw; 
+}
+p {
+  color: #444;
+  font-size: 1.3vw; 
+}
+p span {
+  font-weight: 900; 
+}
+
+:host{
+  display: flex;  
+}
+
+.left {
+      display: flex;
+      flex-direction: column;
+      width: 62vw;
+      padding: 4vw; 
+}
+
+
+
+@media all and (max-width: 768px) {
+p {
+  font-size: 2vw;
+    }
+ ul {
+
+    font-size: 2vw;
+}
+
+ h2 {
+    color: #777;
+
+    font-size: 2vw;
+  
+  }
+
+.left {
+
+    width: 100vw;
+    padding: 1vw 1vw; 
+     
+}
+app-referenceprojects{
+     display:none;
+}
+
+.left .rad1 h1 {
+          font-size: 2.5vw; 
+}
+
+:host {
+    display: flex;
+    padding: 0 0 3vw 3vw; 
+    }
+}
+

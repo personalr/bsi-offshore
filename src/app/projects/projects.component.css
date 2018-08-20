@@ -1,0 +1,51 @@
+
+#projects {
+  padding: 10vw 6vw;
+}
+#projects h1 {
+    color: #4f9dbc; 
+}
+
+#projects p {
+    color: #444; 
+      font-size: 1.3vw;
+}
+#projects h2 {
+    color: #777;
+    font-size: 1.1em; 
+}
+
+#projects .projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+#projects .projects .rad1 {
+    display: flex; 
+}
+
+#projects .projects .rad1 div {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 1vw 1vw 1vw; 
+}
+#projects .projects .rad1 div img {
+    width: 100%;
+    height: auto;
+    flex-grow: 1; 
+}
+
+@media all and (max-width: 768px) {
+
+#projects p {
+    
+      font-size: 2vw;
+}
+
+#projects h1 {
+     font-size: 3vw;
+}
+
+}

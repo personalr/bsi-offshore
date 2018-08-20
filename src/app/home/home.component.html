@@ -1,0 +1,77 @@
+
+        <section id="home" class="home">
+            <section id="seksjon1"> 
+
+    
+            </section>
+            <section id="seksjon2">     
+                <div class="planning">      
+                   <h1  [routerLink]="['/planning']" class="link"> Services</h1>
+                    <p>
+                         
+                        We offer a full range of services to the rig industry, like interior outfitting, insulation, pipe insulation and pipe capsuling.
+                        
+                        
+                        
+                        <br><br>
+
+
+
+
+
+                       <span  [routerLink]="['/services']" class="link">   Read more about our services </span>
+                    </p>
+                </div>
+
+               
+                <div class="turnkey" >
+                    <h1 [routerLink]="['/turnkey']" class="link">Turnkey projects</h1>
+                    <p>
+                        We deliver turnkey projects to our customers, 
+                        coordinating all other trades to make it as easy as possible for our customers.
+                        <br><br>
+                      <span  [routerLink]="['/turnkey']" class="link">  Read more about our turnkey projects</span>
+                    </p>
+                </div>                           
+                <div class="hse" >
+                    <h1 [routerLink]="['/hseq']" class="link">HSEQ</h1>
+                    <p>
+
+
+                            We work methodically to meet the regulations set by the Norwegian authorities and to 
+                            satisfy our clients’ expectations regarding Health, Safety, Environment and Quality.
+
+                            <br><br>
+                     <span [routerLink]="['/hseq']" class="link">   Read more about HSEQ</span>
+                    </p>
+                </div> 
+            </section>
+
+            <section id="seksjon3">  
+                <div>
+                    <h1> Project gallery</h1> 
+                </div>
+                
+                <div class="prosjekter">
+                    <div class="prosjekterdiv" [routerLink]="['/project',p1.id]" > 
+                        <h2>{{p1.name}}</h2>
+
+                         <img  src="{{p1.hovedbilde}}" />
+                     
+                    </div>
+
+                    <div class="prosjekterdiv" [routerLink]="['/project',p2.id]" > 
+                        <h2>{{p2.name}}</h2>
+                         <img  src="{{p2.hovedbilde}}" />
+                    </div>
+
+
+                    <div class="prosjekterdiv" [routerLink]="['/project',p5.id]" > 
+                        <h2>{{p5.name}}</h2>
+                          <img  src="{{p5.hovedbilde}}" />
+                    </div>   
+              
+                </div>
+            </section>
+
+        </section>

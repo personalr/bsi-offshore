@@ -1,0 +1,188 @@
+.nav-header {
+ /* display: flex;
+  width: 100%;
+  */
+}
+
+:host{
+   font-size:  1.25vw;
+}
+
+img {
+  /*height: 80px;
+  width: auto;
+  */
+  
+  padding: 1em 10em;
+  cursor: pointer; 
+  height: 6.2vw;
+  width: auto;
+
+}
+.nav-item {
+  border-top: solid #cedede;
+  padding: 0 4em;
+  display: flex;
+  transition: 0.5s;
+  text-decoration: none; 
+  background-color: #e0e0e0; 
+  white-space: nowrap;
+}
+
+.nav-item a {
+  flex-grow: 1;
+  text-decoration: none;
+  color: #777;
+  padding: 1em;
+  cursor: pointer; 
+}
+
+
+.nav-item a:hover {
+  color: #69b658;
+}
+
+
+.nav-item .aktiv-link {
+  text-decoration: underline;
+  transition: 0.5s;
+  cursor: pointer; 
+  color:#003d7a;
+}
+        
+    
+.nav-item-small{
+display: none;
+}
+
+
+
+    /* -------------------------------------------- */
+
+/* Large Devices, Wide Screens min ipad liggende  */
+@media all and (max-width: 1200px) {
+  .nav-header {
+   
+}
+
+ }
+/* Medium Devices, Desktops */
+@media all and (max-width: 992px) {
+    .nav-header {
+      
+    }
+
+    :host{
+      font-size:  1.5vw;
+    }
+
+.nav-item {
+
+  padding: 0 3em;
+}
+
+
+}
+/* Small Devices, Tablets  min iphone liggende   min ipad stående*/
+@media all and (max-width: 768px) {
+  .nav-header {
+   
+  }
+  :host{
+      font-size:  2vw;
+  }
+  /* legges inn igjen
+  .nav-item {
+    padding: 0 2em;
+  }
+*/
+
+
+/* Understående flyttes ned ett hakk */
+ .nav-item {
+    display:none;
+  }
+
+  .nav-item-small{
+    display: flex;
+    
+  }
+
+  .nav-header {
+    display: none; 
+  }
+  .dropdown {
+    display: none; 
+cursor: pointer;
+width: 100vw;
+ background-color: rgba(255, 255, 255, 0.3);
+
+  }
+.visible{
+
+    display:flex;
+    flex-direction: column;
+    font-size:  4vw;
+    position: fixed;
+    top:10vw;
+    left:0;
+    cursor: pointer;
+
+
+  }
+  a{
+    color: #003d7a;
+    text-decoration: none;
+    background-color: rgba(133, 175, 204, 0.6);/*85afcc*/
+    padding:2vw 0 0 4vw;;
+  }
+
+  a:visited{
+    text-decoration: none;
+  }
+
+  a:hover{
+    background-color: #69b658;
+  }
+
+  .burger{
+    width: 10vw;
+    font-size:  6vw;
+    color: #003d7a;
+    cursor: pointer;
+    padding:0 4vw;
+  }
+}
+
+
+/* Extra Small Devices, Phones min iphone stående */
+@media all and (max-width: 480px) {
+  .nav-header {
+    
+  }
+
+    .nav-item-small{
+    display: flex;
+    
+  }
+
+}
+
+
+/* Custom, iPhone Retina */
+@media all and (max-width: 320px) {
+  .nav-header {
+   
+  }
+
+    .nav-item-small{
+    display: flex;
+    
+  }
+
+}
+
+
+
+
+

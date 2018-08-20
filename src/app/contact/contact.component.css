@@ -1,0 +1,89 @@
+ #contact h1 {
+    color: #4f9dbc; 
+}
+#contact p {
+  color: #444;
+  font-size: 1.2vw; 
+}
+#contact p span {
+  font-weight: 900; 
+}
+#contact h2 {
+    color: #777;
+    font-size: 1.5vw; 
+}
+#contact h3 {
+    color: #4f9dbc;
+    font-size: 1.5vw; }
+#contact .contact {
+    display: flex;
+}
+#contact .contact .left {
+    display: flex;
+    flex-direction: column;
+    width: 62vw;
+    padding: 4vw;
+}
+#contact .contact .left .rad1 {
+    display: flex; 
+
+}
+#contact .contact .left .rad1 div {
+    padding: 0 0vw; 
+        padding: 0vw 2vw; 
+        width: 20vw;
+
+        flex-grow: 1; 
+      
+}
+
+#contact .contact .left .rad2 {
+    display: flex; 
+
+}
+#contact .contact .left .rad2 div {
+    padding: 0 0vw; 
+    padding: 0vw 2vw; 
+    width: 20vw;
+    flex-grow: 1; 
+}
+
+
+
+
+
+@media all and (max-width: 768px) {
+  #contact p {
+  font-size: 2vw;
+    }
+    #contact .contact .left .rad1 ul {
+
+    font-size: 2vw;
+}
+
+  #contact h2 {
+    color: #777;
+
+    font-size: 2vw;
+  
+  }
+
+#contact .contact .left {
+
+    width: 98vw;
+    padding: 1vw 1vw; 
+     
+}
+app-referenceprojects{
+     display:none;
+}
+
+#contact .contact .left .rad1 h1 {
+          font-size: 2.5vw; 
+}
+
+  #contact .contact {
+    display: flex;
+
+    }
+}

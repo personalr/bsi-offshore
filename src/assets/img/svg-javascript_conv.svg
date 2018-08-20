@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="400" height="300" viewBox="0, 0, 400, 300">
+  <g id="Layer_1">
+    <g id="my-circle">
+      <path d="M150,100 C150,127.614 127.614,150 100,150 C72.386,150 50,127.614 50,100 C50,72.386 72.386,50 100,50 C127.614,50 150,72.386 150,100 z" fill="#3080D0" fill-opacity="0.5"/>
+      <path d="M150,100 C150,127.614 127.614,150 100,150 C72.386,150 50,127.614 50,100 C50,72.386 72.386,50 100,50 C127.614,50 150,72.386 150,100 z" fill-opacity="0" stroke="#3080D0" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

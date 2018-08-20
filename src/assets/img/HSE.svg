@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="980" height="320" viewBox="0, 0, 980, 320">
+
+
+<style type="text/css" >
+      
+      <![CDATA[
+    
+        path.bolge1 {
+          fill: #accef1;
+          stroke: #accef1;
+        }
+
+
+  
+   
+      ]]>
+    </style>
+
+
+  <g id="Layer_2">
+    <g>
+      <g>
+        <path class="bolge1" d="M420.892,196.369 C372.843,196.369 333.892,157.094 333.892,108.645 C333.892,60.196 372.843,20.92 420.892,20.92 C468.941,20.92 507.892,60.196 507.892,108.645 C507.892,157.094 468.941,196.369 420.892,196.369 z" fill="#000000"/>
+        <path class="bolge1" d="M420.892,196.369 C372.843,196.369 333.892,157.094 333.892,108.645 C333.892,60.196 372.843,20.92 420.892,20.92 C468.941,20.92 507.892,60.196 507.892,108.645 C507.892,157.094 468.941,196.369 420.892,196.369 z" fill-opacity="0" stroke="#000000" stroke-width="10"/>
+      </g>
+      <g>
+        <path class="bolge1" d="M571.527,196.369 C523.478,196.369 484.527,157.094 484.527,108.645 C484.527,60.196 523.478,20.92 571.527,20.92 C619.576,20.92 658.527,60.196 658.527,108.645 C658.527,157.094 619.576,196.369 571.527,196.369 z" fill="#000000"/>
+        <path class="bolge1" d="M571.527,196.369 C523.478,196.369 484.527,157.094 484.527,108.645 C484.527,60.196 523.478,20.92 571.527,20.92 C619.576,20.92 658.527,60.196 658.527,108.645 C658.527,157.094 619.576,196.369 571.527,196.369 z" fill-opacity="0" stroke="#000000" stroke-width="10"/>
+      </g>
+      <g>
+        <path class="bolge1" d="M371.759,181.991 L496.444,62.888 L621.41,180.976 L496.726,300.08 L371.759,181.991 z" fill="#000000"/>
+        <path class="bolge1" d="M371.759,181.991 L496.444,62.888 L621.41,180.976 L496.726,300.08 L371.759,181.991 z" fill-opacity="0" stroke="#000000" stroke-width="10"/>
+      </g>
+      <path  d="M391.585,167.666 L458.754,166.883 L485.623,97.161 L505.85,253.839 L529.783,167.666 L601.585,168.449" fill-opacity="0" stroke="#FFFFFF" stroke-width="20"/>
+    </g>
+    <g>
+      <g>
+        <path class="bolge1" d="M207.861,30.115 L49.194,295.17 L369.194,295.17 L207.861,30.115 z" fill="#000000"/>
+        <path class="bolge1" d="M207.861,30.115 L49.194,295.17 L369.194,295.17 L207.861,30.115 z" fill-opacity="0" stroke="#000000" stroke-width="28" stroke-linejoin="round"/>
+      </g>
+      <path  d="M201.14,71.583 L210.461,183.088 L217.247,71.569 L201.14,71.583 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="39" stroke-linejoin="round"/>
+      <path d="M212.288,253.494 L213.099,253.494" fill-opacity="0" stroke="#FFFFFF" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+  
+      <g>
+        <path class="bolge1" d="M683.166,211.638 L648.527,271.17 L767.169,271.17" fill-opacity="0" stroke="#000000" stroke-width="28" stroke-linejoin="round"/>
+        <path class="bolge1" d="M699.761,221.294 L708.915,167.384 L666.57,201.982 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="28" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path class="bolge1" d="M878.779,267.982 L949.806,267.783 L891.019,169.921" fill-opacity="0" stroke="#000000" stroke-width="28" stroke-linejoin="round"/>
+        <path class="bolge1" d="M878.726,248.782 L827.58,268.125 L878.833,287.182 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="28" stroke-opacity="1"/>
+      </g>
+      <g>
+        <path class="bolge1" d="M835.607,85.406 L800.023,30.115 L735.156,130.121" fill-opacity="0" stroke="#000000" stroke-width="28" stroke-linejoin="round"/>
+        <path class="bolge1" d="M819.461,95.796 L863.315,128.46 L851.752,75.015 z" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="28" stroke-opacity="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
