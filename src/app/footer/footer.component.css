@@ -20,8 +20,12 @@
     }
 
 #footer .rad1 div img {
-    width: 100%; 
+    width: 80%; 
+  /*  height: 130%;*/
     cursor: pointer;
+    /*
+    border: solid red;
+*/
 }
 #footer .rad2 {
     display: flex;
