@@ -8,14 +8,16 @@
   
 #footer .rad1 {
     display: flex; 
+/*    border:solid red; */
 }
 
 #footer .rad1 div {
       padding: 2vw;
       border: solid #999;
-      color: white;
+      color: black;
       width: 20%; 
-}
+      background-color: white;
+    }
 
 #footer .rad1 div img {
     width: 100%; 
