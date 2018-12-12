@@ -32,14 +32,11 @@
     padding: 0 0vw; 
         padding: 0vw 2vw; 
         width: 20vw;
-
         flex-grow: 1; 
-      
 }
 
 #contact .contact .left .rad2 {
     display: flex; 
-
 }
 #contact .contact .left .rad2 div {
     padding: 0 0vw; 
